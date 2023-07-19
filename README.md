@@ -46,7 +46,7 @@ scp filename username@serve_ipr:location
 ```
 
 
- To Download from server: ‘Get filename’
+ To Download from server: ‘Get filename’ \n
  To Upload file: ‘Put filename’
 
 <h3 id="modules">Modules</h3>
@@ -56,8 +56,8 @@ There are many centrally installed softwares and for some software even multiple
 
 
 
-* Get available modules: module ava
-* Load a module named moduleName : module load moduleName
+* Get available modules: ''' module ava '''
+* Load a module named moduleName : ''' module load moduleName '''
 
 <h3 id="job-submission">Job Submission</h3>
 
