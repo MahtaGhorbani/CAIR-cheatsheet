@@ -1,43 +1,21 @@
-# CAIR-cheatsheet
 <!-- Output copied to clipboard! -->
 
-<!-----
+<!-- Yay, no errors, warnings, or alerts! -->
 
-Yay, no errors, warnings, or alerts!
+<h2>CAIR System Cheat Sheet</h2>
 
-Conversion time: 0.607 seconds.
-
-
-Using this Markdown file:
-
-1. Paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β34
-* Wed Jul 19 2023 14:07:49 GMT-0700 (PDT)
-* Source doc: CAIR System Cheatsheet
-* Tables are currently converted to HTML tables.
------>
-
-
-
-# CAIR System Cheat Sheet
 
 
 [TOC]
 
 
+<h3 id="cair">CAIR</h3>
 
-## CAIR {#cair}
 
 This cheat sheet is created to navigate through CAIR's file management system ,LSF. LSF (Load Sharing Facility) is a workload management platform, job scheduler, for distributed high performance computing (HPC) by IBM
 
+<h3 id="accessing">Accessing</h3>
 
-## Accessing {#accessing}
 
 To access the CAIR system, use the following command:
 
@@ -56,8 +34,8 @@ Mun’s servers are
 * login1.cair.mun.ca
 * login2.cair.mun.ca
 
+<h3 id="file-transfer-and-storage">File Transfer and Storage</h3>
 
-## File Transfer and Storage {#file-transfer-and-storage}
 
 To transfer files to and from the CAIR system, you can use the following commands:
 
@@ -80,8 +58,8 @@ scp filename username@serve_ipr:location
     * To Download from server: ‘Get filename’
     * To Upload file: ‘Put filename’
 
+<h3 id="modules">Modules</h3>
 
-## Modules {#modules}
 
 There are many centrally installed softwares and for some software even multiple versions. To configure the environment for a particular software version, modules are used. Modules configure your current computing environment (PATH, LD_LIBRARY_PATH, MANPATH, etc.) to make sure all required binaries and libraries are found.
 
@@ -90,8 +68,8 @@ There are many centrally installed softwares and for some software even multiple
 * Get available modules: module ava
 * Load a module named moduleName : module load moduleName
 
+<h3 id="job-submission">Job Submission</h3>
 
-## Job Submission {#job-submission}
 
 To submit a job to the CAIR system, use the following command:
 
@@ -106,8 +84,8 @@ bsub [LSF options] [Job]
     * Job Types:
         * A single Linux command
         * A program with its path
-        * A shell script passed via &lt;
-            * Example: bsub &lt; hello.sh
+        * A shell script passed via <
+            * Example: bsub < hello.sh
     * LSF options
 
 <table>
@@ -183,7 +161,6 @@ Option
 ```
 
 
-    * 
 
 <table>
   <tr>
@@ -244,8 +221,8 @@ Bjobs options
 </table>
 
 
+<h3 id="queues-information">Queues Information:</h3>
 
-## Queues Information: {#queues-information}
 
 In the context of the CAIR system, a queue represents a specific category or group of computational resources and policies for job execution. Each queue may have different characteristics such as priority, maximum job runtime, and resource allocation. Understanding the queues available on the system can help you choose the appropriate queue for submitting your jobs based on their requirements and priority.
 
@@ -261,8 +238,8 @@ bqueues
 
 Additionally, you can often obtain further details about a specific queue by using the ‘bqueues -l queue_name’ command.
 
+<h3>Job Structure</h3>
 
-## Job Structure
 
 A Job structure should typically contain following information
 
