@@ -6,9 +6,6 @@
 
 
 
-[TOC]
-
-
 <h3 id="cair">CAIR</h3>
 
 
@@ -18,16 +15,10 @@ This cheat sheet is created to navigate through CAIR's file management system ,L
 
 
 To access the CAIR system, use the following command:
-
-
 ```
 ssh username@server_ip
 ```
-
-
 Mun’s servers are 
-
-
 
 * 10.250.0.3
 * 10.250.0.4
@@ -43,20 +34,20 @@ To transfer files to and from the CAIR system, you can use the following command
 
 * Scp (Secure copy) : 
 
-    ```
+```
 scp filename username@serve_ipr:location 
 ```
 
 
 * Sftp (Secure File Transfer Protocol):
 
-    ```
+```
  sftp username@server_ip
 ```
 
 
-    * To Download from server: ‘Get filename’
-    * To Upload file: ‘Put filename’
+ To Download from server: ‘Get filename’
+ To Upload file: ‘Put filename’
 
 <h3 id="modules">Modules</h3>
 
