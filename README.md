@@ -46,8 +46,8 @@ scp filename username@serve_ipr:location
 ```
 
 
- To Download from server: ‘Get filename’ \n
- To Upload file: ‘Put filename’
+ * To Download from server: ‘Get filename’
+ * To Upload file: ‘Put filename’
 
 <h3 id="modules">Modules</h3>
 
@@ -146,7 +146,7 @@ Option
 
 * Monitor a job :
 
-    ```
+```
  bjobs [options]
 ```
 
@@ -220,7 +220,7 @@ In the context of the CAIR system, a queue represents a specific category or gro
 
 * Get a list of all queues with their properties
 
-    ```
+```
 bqueues
 ```
 
