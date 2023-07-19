@@ -71,13 +71,12 @@ bsub [LSF options] [Job]
 
 
 
-
-    * Job Types:
-        * A single Linux command
-        * A program with its path
-        * A shell script passed via <
-            * Example: bsub < hello.sh
-    * LSF options
+ * Job Types:
+   * A single Linux command
+   * A program with its path
+   * A shell script passed via <
+   * Example: bsub < hello.sh
+* LSF options
 
 <table>
   <tr>
