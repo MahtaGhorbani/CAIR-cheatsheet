@@ -143,7 +143,7 @@ Option
   <td>-gpu
   </td>
   <td>
-   Specifies properties of GPU resources required by the job." [ num= num_gpus [ / task | host ] ] [ :mode=shared | exclusive_process ] [ :mps= yes [ ,shared ] [ ,nocvd ] "
+   Specifies properties of GPU resources required by the job. example :" [ num= num_gpus] [ :mode=shared | exclusive_process ]"
   </td>
  </tr>
 </table>
