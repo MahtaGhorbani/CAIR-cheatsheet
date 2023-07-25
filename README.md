@@ -255,4 +255,6 @@ module load moduleName
 # Commands to execute the job
 
 ```
+<h3>Resources</h3>
+[IBM Spectrum LSF documentation](https://www.ibm.com/docs/en/spectrum-lsf/10.1.0?topic=components-lsf-documentation)
 
