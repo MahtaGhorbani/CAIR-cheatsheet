@@ -139,6 +139,13 @@ Option
    <td>Set the maximum wall time limit for the job.
    </td>
   </tr>
+ <tr>
+  <td>-gpu
+  </td>
+  <td>
+   Specifies properties of GPU resources required by the job." [ num= num_gpus [ / task | host ] ] [ :mode=shared | exclusive_process ] [ :mps= yes [ ,shared ] [ ,nocvd ] "
+  </td>
+ </tr>
 </table>
 
 
