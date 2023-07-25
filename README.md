@@ -18,12 +18,6 @@ To access the CAIR system, use the following command:
 ```
 ssh username@server_ip
 ```
-Mun’s servers are 
-
-* 10.250.0.3
-* 10.250.0.4
-* login1.cair.mun.ca
-* login2.cair.mun.ca
 
 <h3 id="file-transfer-and-storage">File Transfer and Storage</h3>
 
